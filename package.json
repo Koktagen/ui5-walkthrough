@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "start node proxy.js && start ui5 serve",
     "proxy": "node proxy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -26,7 +26,10 @@ sap.ui.define([
 				currency: "MYR"
 			});
 			this.getView().setModel(oViewModel, "view");
+		},
+    onPress: function (oEvent) {
+			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter.navTo("detail");
 		}
-
 	});
 });
